@@ -1,0 +1,17 @@
+*{margin:0;padding: 0}
+body{height: 100%;width: 100%;background: #EFF0F4;overflow: hidden;}
+
+header{clear: both;padding: 0 31px;height: 86px;line-height: 86px;text-align: center;background: #5AC0CE;}
+header span{color: white;font-size: 25px}
+.close{float: left;}
+.reg{float: right;}
+
+.info ul{list-style: none;}
+.info span{position: relative;}
+.info input{width: 100%;height: 34px;font-size: 25px;padding: 33px 150px;outline: none;border: none;margin-top: 16px;color: black}
+.info input[placeholder]{color: #E1E5E7}
+.info li span:before{content: "";display: block;width: 2px;height: 51px;position: absolute;top: -15px;left: 116px;background-color: #EBEEEF;}
+.phone{background-position: 43px 50%;background-image: url(../img/phone.png);background-repeat: no-repeat}
+.password{background-position: 43px 50%;background-image: url(../img/password.png);background-repeat: no-repeat}
+button{width: 100%;height: 100px;margin-top: 68px;line-height: 100px;text-align: center;font-size: 25px;color: white;background: #5AC0CE;border: none;outline: none;cursor:pointer; }
+.forget{float: right;font-size: 25px;color: #5AC0CE}
