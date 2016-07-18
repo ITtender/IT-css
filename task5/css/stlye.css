@@ -1,0 +1,61 @@
+*{margin:0;padding: 0;list-style: none}
+body{overflow-x: hidden;height: 100%;width: 100%;font-size: 62.5%;min-width: 320px;}
+/*@media screen and (min-width: 320px){
+	html{height: 100%;width: 100%;font-size: 62.5%;}
+}
+*/
+.task5-1{position: absolute;width: 100%}
+
+.task5-1 header{color:white;text-align: center;padding: 0 1rem;height: 5vw;line-height: 5vw;background: #5AC0CE;}
+.task5-1 .back{text-decoration: none;color: white;float: left;font-size: 3vw;font-family: "黑体"}
+.task5-1 .back{cursor: pointer;}
+.task5-1 .home{font-size: 3vw}
+
+.task5-1 section{position: relative;height: 15vw;background-image: url(../img/images/background.png);background-repeat: no-repeat;background-size: cover;}
+.task5-1 section div{position:absolute;top:15%;left: 3%;width: 10vw;height: 10vw;border-radius: 50%;background-image: url(../img/head.jpg);background-size: cover;filter: blur(0);}
+.task5-1 section .info{font-size: 2vw;position:absolute;top:35%;left: 16%}
+.task5-1 section .coor{font-size: 1.5vw;position:absolute;top:55%;left: 16%}
+.task5-1 section .coor:before{content: '';display: inline-block;width: 1.7vw;height: 1.7vw;background-image: url(../img/images/position.png);background-size: contain;background-repeat: no-repeat;}
+
+.task5-1 main{font-size: 1.5vw}
+.task5-1 main div {padding: 2vw;border-bottom: 1px solid #E3E7E8;border-left: 4px solid black;font-family: "黑体" }
+.task5-1 main ul li{padding: 2vw;border-bottom: 1px solid #E3E7E8}
+.task5-1 main ul li span{color: gray;margin-right: 30px}
+
+.task5-1 footer{margin-top: 30px;padding: 2.5vw;text-align: center;font-size: 1.5vw}
+.task5-1 footer ul{display: flex;}
+.task5-1 footer ul li {}
+.task5-1 footer .one{flex: 1}
+.task5-1 footer button{color: #5CC1CD;border: 1px solid #5CC1CD;background: white;border-radius: 10px;width: 50%;height: 40px}
+.task5-1 footer button:hover{cursor: pointer}
+.task5-1 footer .two{flex: 1}
+.task5-1 footer .two .phone{background: #5CC1CD;color: white}
+
+.task5-2 {display: none}
+.task5-2 header{position: relative;color:white;text-align: center;padding: 0 1rem;height: 88px;line-height: 88px;background: #5AC0CE;}
+.task5-2 header button{padding: 15px;border: none;background: white;border-radius: 5%}
+.task5-2 header .change .change-1{background: #55a8b3;color: #fff}
+.task5-2 header .change .change-2{margin-left: -10px;color: #55a8b3}
+.task5-2 header .task5-2position{position: absolute;right: 3%;top: 50%;transform: translateY(-50%);}
+
+.task5-2 main .selected{border-bottom: 1px solid #999;display: flex;justify-content:space-between;font-size: 1.6em;padding:0 17px;;color: black;clear: both;}
+.task5-2 main .selected li{width: 20%;color: #999;position: relative;float: left;padding: 24px 50px}
+.task5-2 main .selected .here{position: absolute;right: 4%;top: 50%;transform: translateY(-50%);}
+
+.task5-2 main .info{border-bottom: 1px solid #999;padding: 0 17px;font-size: 2.8em}
+.task5-2 main .info li{border-bottom: 1px solid #999}
+.task5-2 main .info div{padding: 1%}
+.task5-2 main .info .price{text-indent: 1.5em}
+.task5-2 main .info .price span{float: right ;}
+.task5-2 main .info .price span img{vertical-align: middle;margin-left: 10px}
+.task5-2 main .info .server img,.task5-2 main .info .weizhi img{margin-right: 20px}
+.task5-2 footer{padding: 10px 10px;background: #f8fafb;text-align: center;}
+
+.task5-2 footer ul{display: flex;justify-content:space-between;}
+.task5-2 footer ul li{position: relative;}
+.task5-2 footer ul .home {flex: 1;}
+.task5-2 footer ul .home img{position: absolute;top: 50%;transform: translateY(-50%);}
+.task5-2 footer ul .write img{border-radius: 50%}
+.task5-2 footer ul .person{flex: 1;}
+.task5-2 footer ul .person img{position: absolute;top: 50%;transform: translateY(-50%);}
+.task5-2 footer ul .person img:hover{cursor: pointer;}

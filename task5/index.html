@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/stlye.css">
+	<script type="text/javascript" src='../../jQuery/jq.min.js'></script>
+</head>
+<body>
+	<div class="task5-1">
+		<header>
+			<a   class="back" id="a">&lt;</a>
+			<span class="home">个人主页</span>
+		</header>
+		<section>
+			<div></div>
+			<span class="info">湮灭狐狸 19岁</span>
+			<span class="coor">北京.通州.果园</span>
+		</section>
+		<main>
+			<div>专业技能</div>
+			<ul>
+				<li><span>住家</span>不含餐</li>
+				<li><span>从业年限</span>0-3年</li>
+				<li><span>工作时间</span>全天</li>
+				<li><span>服务价格</span>25元/小时</li>
+				<li><span>自我介绍</span>可以洗衣、做饭</li>
+			</ul>
+		</main>
+		<footer>
+			<ul>
+				<li class="one"><button class="message">留言</button></li>
+				<li class="two"><button class="phone">电话联系</button></li>
+			</ul>
+		</footer>
+	</div>
+	<div class="task5-2" >
+		<header>
+			<div class="change">
+				<button class="change-1">找雇主</button>
+				<button class="change-2">找护工</button>
+			</div>
+			<img src="img/images/task5-2position.png" class="task5-2position">
+		</header>
+		<main>
+			<ul class="selected">
+				<li>所在地<img src="img/images/task5-2here.png" class="here"></li>
+				<li>食宿<img src="img/images/task5-2here.png" class="here"></li>
+				<li>病人情况<img src="img/images/task5-2here.png" class="here"></li>
+			</ul>
+			<ul class="info">
+				<li>
+					<div class="server"><img src="img/images/task5-2home.png">服务日期</div>
+					<div class="price">2015-7-5至2015-7-12<span>25元/小时<img src="img/images/task5-2right.png"></span></div>
+					<div class="weizhi"><img src="img/images/position.png">北京.通州.果园 </div>
+				</li>
+				<li>
+					<div class="server"><img src="img/images/task5-2home.png">服务日期</div>
+					<div class="price">2015-7-5至2015-7-12<span>25元/小时<img src="img/images/task5-2right.png"></span></div>
+					<div class="weizhi"><img src="img/images/position.png">北京.通州.果园 </div>
+				</li>
+				<li>
+					<div class="server"><img src="img/images/task5-2home.png">服务日期</div>
+					<div class="price">2015-7-5至2015-7-12<span>25元/小时<img src="img/images/task5-2right.png"></span></div>
+					<div class="weizhi"><img src="img/images/position.png">北京.通州.果园 </div>
+				</li>
+				<li>
+					<div class="server"><img src="img/images/task5-2home.png">服务日期</div>
+					<div class="price">2015-7-5至2015-7-12<span>25元/小时<img src="img/images/task5-2right.png"></span></div>
+					<div class="weizhi"><img src="img/images/position.png">北京.通州.果园 </div>
+				</li>
+				<li>
+					<div class="server"><img src="img/images/task5-2home.png">服务日期</div>
+					<div class="price">2015-7-5至2015-7-12<span>25元/小时<img src="img/images/task5-2right.png"></span></div>
+					<div class="weizhi"><img src="img/images/position.png">北京.通州.果园 </div>
+				</li>
+			</ul>
+		</main>
+		<footer>
+			<ul>
+				<li class="home"><img src="img/images/home.png"></li>
+				<li class="write"><img src="img/images/write.png"></li>
+				<li class="person"><img src="img/images/person.png" id="b"></li>
+			</ul>
+		</footer>
+	</div>
+</body>
+</html>
+<script>
+	$(document).ready(function() {
+		$('#a').on('click',function(){
+			$('.task5-1').css('display', 'none'),$('.task5-2').css('display', 'block');
+		})
+		$('#b').on('click',function(){
+			$('.task5-2').css('display', 'none'),$('.task5-1').css('display', 'block');;
+		})
+
+	});
+</script>
